@@ -1,0 +1,25 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "study project for node js express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorilla-Kim/nodeJs-study.git"
+  },
+  "author": "gorilla-Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gorilla-Kim/nodeJs-study/issues"
+  },
+  "homepage": "https://github.com/gorilla-Kim/nodeJs-study#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
+  }
+}
