@@ -2,23 +2,23 @@
 
 
 
-## npm init
+## ✅ npm init
 
 package.json 파일 생성
 
 
 
-## npm i express --save
+## ✅ npm i express --save
 
 Express 프레임워크 설치
 
 * --save
 
-  package.json 에 express 모듈 추가
+  package.json 에 express 모듈 정보를 추가
 
 
 
-## 기타 모듈
+## ✅ 기타 모듈
 
 `npm i cookie-parser --save`
 
@@ -34,7 +34,27 @@ Express 프레임워크 설치
 
 
 
-## JS 문법
+## ✅ Static
+
+img, html, css 와 같이 자주 바뀌지 않는 정적인 파일들을 다룬다.
+
+assets와 같은 폴더를 만들고 그 안에서 파일들을 관리한다.
+
+`npm i serve-static --save`
+
+
+
+## ✅ Chaching Layers
+
+`npm i redis --save`
+
+`npm i redis-cluster --save`
+
+
+
+## 📗 JS 문법
+
+`class`
 
 - super() 와 super. 의 용법은 각각 무엇인가?
   super()은 부모클래스의 constructor 즉, 생성자로서의 역할을 수행한다.
@@ -50,11 +70,10 @@ Express 프레임워크 설치
 - 상속의 기능으로 인해 생기는 단점을 어떤게 보완하는가?
   상속받은 기능은 변경할수 없었는데 super를 통해 중복되는 부분은 끌어다 쓰고, 추가적인 부분은 추가하여 보완할 수 있다.  
 
+-------------
 
+`setTimeout`을 이용한 이벤트 처리
 
+* `setTimeout`의 경우 `unref`하면 이벤트 루프를 깨울 분리된 타이머를 생성한다. 이 타이머를 너무 많이 생성하면 이벤트 루프 성능에 역효과를 줄 수 있다. -- 잘 사용해라.
 
-
-`setTimeout`의 경우 `unref`하면 이벤트 루프를 깨울 분리된 타이머를 생성한다. 이 타이머를 너무 많이 생성하면 이벤트 루프 성능에 역효과를 줄 수 있다. -- 잘 사용해라.
-
-
-update
+-------
