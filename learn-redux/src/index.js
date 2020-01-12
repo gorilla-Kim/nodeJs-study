@@ -7,9 +7,10 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import rootReducer from './modules';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 // Store 생성하기, reducer는 rootReducer로
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, composeWithDevTools());
 
 // Provider와 이 안에서 props를 통해 store를 사용이 가능하다.
 ReactDOM.render(
